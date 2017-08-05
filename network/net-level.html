@@ -1,0 +1,966 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.6 网络分层 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="tcp.html" />
+    
+    
+    <link rel="prev" href="cache.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. Js基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../basic/prototype.html">
+            
+                <a href="../basic/prototype.html">
+            
+                    
+                    1.1 prototype和proto的关系是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../basic/this.html">
+            
+                <a href="../basic/this.html">
+            
+                    
+                    1.2 this关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../basic/scope-chain.html">
+            
+                <a href="../basic/scope-chain.html">
+            
+                    
+                    1.3 作用域链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../basic/scope-up.html">
+            
+                <a href="../basic/scope-up.html">
+            
+                    
+                    1.4 变量提升
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../basic/es6.html">
+            
+                <a href="../basic/es6.html">
+            
+                    
+                    1.5 ES6相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../basic/call.html">
+            
+                <a href="../basic/call.html">
+            
+                    
+                    1.6 Call
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../basic/apply.html">
+            
+                <a href="../basic/apply.html">
+            
+                    
+                    1.7 apply
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../basic/bind.html">
+            
+                <a href="../basic/bind.html">
+            
+                    
+                    1.8 bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../basic/js-OOP.html">
+            
+                <a href="../basic/js-OOP.html">
+            
+                    
+                    1.9 js面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../basic/js-else.html">
+            
+                <a href="../basic/js-else.html">
+            
+                    
+                    1.10 js其他小技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../basic/promise.html">
+            
+                <a href="../basic/promise.html">
+            
+                    
+                    1.11 Promise原理&实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../basic/nextTick-setTimeout.html">
+            
+                <a href="../basic/nextTick-setTimeout.html">
+            
+                    
+                    1.12 setTimeout、setImmediate、process.nextTick
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../basic/regexp.html">
+            
+                <a href="../basic/regexp.html">
+            
+                    
+                    1.13 正则相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. CSS 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../css/display-float.html">
+            
+                <a href="../css/display-float.html">
+            
+                    
+                    2.1 display:inline-block 和 float 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../css/link&import.html">
+            
+                <a href="../css/link&import.html">
+            
+                    
+                    2.2 css引入 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../css/code-guide.html">
+            
+                <a href="../css/code-guide.html">
+            
+                    
+                    2.2 代码规范 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. Html相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../html/dom-nodetype.html">
+            
+                <a href="../html/dom-nodetype.html">
+            
+                    
+                     3.1 Dom 节点类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../html/BOM.html">
+            
+                <a href="../html/BOM.html">
+            
+                    
+                     3.2 BOM 是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../html/event-bubble.html">
+            
+                <a href="../html/event-bubble.html">
+            
+                    
+                     3.3 事件和冒泡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../html/Doctype.html">
+            
+                <a href="../html/Doctype.html">
+            
+                    
+                     3.4 Doctype
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../html/web-optimization.html">
+            
+                <a href="../html/web-optimization.html">
+            
+                    
+                     3.5 前端优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../html/RWD-concept.html">
+            
+                <a href="../html/RWD-concept.html">
+            
+                    
+                     3.6 响应式设计-概念&应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../html/RWD-font.html">
+            
+                <a href="../html/RWD-font.html">
+            
+                    
+                     3.7 响应式设计-字体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../html/RWD-layout.html">
+            
+                <a href="../html/RWD-layout.html">
+            
+                    
+                     3.8 响应式设计-布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../html/RWD-gird.html">
+            
+                <a href="../html/RWD-gird.html">
+            
+                    
+                     3.9 响应式设计-自定义网格布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../html/RWD-cross-browser.html">
+            
+                <a href="../html/RWD-cross-browser.html">
+            
+                    
+                     3.10 响应式设计：跨浏览器兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../html/pageview.html">
+            
+                <a href="../html/pageview.html">
+            
+                    
+                     3.11 页面呈现、重绘、回流
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. 网络相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="jsonp.html">
+            
+                <a href="jsonp.html">
+            
+                    
+                    4.1 JSONP的实现，和JSON的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="ajax.html">
+            
+                <a href="ajax.html">
+            
+                    
+                    4.2 AJAX的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="cross-origin.html">
+            
+                <a href="cross-origin.html">
+            
+                    
+                    4.3 跨域问题及其解决
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="http-code.html">
+            
+                <a href="http-code.html">
+            
+                    
+                    4.4 http状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="cache.html">
+            
+                <a href="cache.html">
+            
+                    
+                    4.5 缓存机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.6" data-path="net-level.html">
+            
+                <a href="net-level.html">
+            
+                    
+                    4.6 网络分层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="tcp.html">
+            
+                <a href="tcp.html">
+            
+                    
+                    4.7 TCP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="http.html">
+            
+                <a href="http.html">
+            
+                    
+                    4.8 HTTP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    5. Js框架相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../frame/React-diff.html">
+            
+                <a href="../frame/React-diff.html">
+            
+                    
+                    5.1 React的diff算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../frame/React-diff.html">
+            
+                <a href="../frame/React-diff.html">
+            
+                    
+                    5.2 React的props和state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../frame/react-vue.html">
+            
+                <a href="../frame/react-vue.html">
+            
+                    
+                    5.3 React对比Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../frame/react-angular.html">
+            
+                <a href="../frame/react-angular.html">
+            
+                    
+                    5.4 React对比angularJs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../frame/react-purecomponent.html">
+            
+                <a href="../frame/react-purecomponent.html">
+            
+                    
+                    5.5 React的pureComponent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../frame/React-render.html">
+            
+                <a href="../frame/React-render.html">
+            
+                    
+                    5.6 React渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../frame/mvc-mvvm.html">
+            
+                <a href="../frame/mvc-mvvm.html">
+            
+                    
+                    5.7 MVC和MVVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. Else
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../else/nowCoder.html">
+            
+                <a href="../else/nowCoder.html">
+            
+                    
+                    6.1 牛客网Node.js输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../else/firstScreen.html">
+            
+                <a href="../else/firstScreen.html">
+            
+                    
+                    6.2 首屏，白屏时间如何计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../else/jestUsage.html">
+            
+                <a href="../else/jestUsage.html">
+            
+                    
+                    6.3 Jest基本用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../else/else.html">
+            
+                <a href="../else/else.html">
+            
+                    
+                    6.4 零碎知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >4.6 网络分层</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x7F51;&#x7EDC;">&#x7F51;&#x7EDC;</h2>
+<p><img src="../image/4-6-1.jpg" alt=""></p>
+<h3 id="&#x7B2C;7&#x5C42;&#x5E94;&#x7528;&#x5C42;&#xFF1A;">&#x7B2C;7&#x5C42;&#x5E94;&#x7528;&#x5C42;&#xFF1A;</h3>
+<p>OSI&#x4E2D;&#x7684;&#x6700;&#x9AD8;&#x5C42;&#x3002;&#x4E3A;&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x7F51;&#x7EDC;&#x5E94;&#x7528;&#x63D0;&#x4F9B;&#x4E86;&#x8BBF;&#x95EE;OSI&#x73AF;&#x5883;&#x7684;&#x624B;&#x6BB5;,&#x5904;&#x7406;&#x7F51;&#x7EDC;&#x5E94;&#x7528;&#x3002;&#x5E38;&#x89C1;&#x7684;&#x534F;&#x8BAE;&#x6709;:HTTP&#xFF0C;HTTPS&#xFF0C;FTP&#xFF0C;TELNET&#xFF0C;SSH&#xFF0C;SMTP&#xFF0C;POP3&#x7B49;&#x3002;</p>
+<h3 id="&#x7B2C;6&#x5C42;&#x8868;&#x793A;&#x5C42;&#xFF1A;&#xFF08;&#x6570;&#x636E;&#x8868;&#x793A;&#xFF09;">&#x7B2C;6&#x5C42;&#x8868;&#x793A;&#x5C42;&#xFF1A;&#xFF08;&#x6570;&#x636E;&#x8868;&#x793A;&#xFF09;</h3>
+<p>&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x5904;&#x7406;&#x4E24;&#x4E2A;&#x901A;&#x4FE1;&#x7CFB;&#x7EDF;&#x4E2D;&#x4EA4;&#x6362;<strong>&#x4FE1;&#x606F;&#x7684;&#x8868;&#x793A;&#x65B9;&#x5F0F;</strong>&#x3002;&#x4E3A;&#x4E0A;&#x5C42;&#x7528;&#x6237;&#x89E3;&#x51B3;&#x7528;&#x6237;&#x4FE1;&#x606F;&#x7684;&#x8BED;&#x6CD5;&#x95EE;&#x9898;&#x3002;&#x5B83;&#x5305;&#x62EC;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x4EA4;&#x6362;&#x3001;&#x6570;&#x636E;&#x52A0;&#x5BC6;&#x4E0E;&#x89E3;&#x5BC6;&#x3001;&#x6570;&#x636E;&#x538B;&#x7F29;&#x4E0E;&#x7EC8;&#x7AEF;&#x7C7B;&#x578B;&#x7684;&#x8F6C;&#x6362;&#x3002; &#x4E0D;&#x7528;&#x534F;&#x8BAE;.</p>
+<h3 id="&#x7B2C;5&#x5C42;&#x4F1A;&#x8BDD;&#x5C42;&#xFF1A;&#xFF08;&#x4E92;&#x8054;&#x4E3B;&#x673A;&#x901A;&#x4FE1;&#xFF09;">&#x7B2C;5&#x5C42;&#x4F1A;&#x8BDD;&#x5C42;&#xFF1A;&#xFF08;&#x4E92;&#x8054;&#x4E3B;&#x673A;&#x901A;&#x4FE1;&#xFF09;</h3>
+<p>&#x5728;&#x4E24;&#x4E2A;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x5EFA;&#x7ACB;&#x7AEF;&#x8FDE;&#x63A5;&#x3002;&#x4E3A;&#x7AEF;&#x7CFB;&#x7EDF;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E4B;&#x95F4;&#x63D0;&#x4F9B;&#x4E86;&#x5BF9;&#x8BDD;&#x63A7;&#x5236;&#x673A;&#x5236;&#x3002;&#x6B64;&#x670D;&#x52A1;&#x5305;&#x62EC;&#x5EFA;&#x7ACB;&#x8FDE;&#x63A5;&#x662F;&#x4EE5;&#x5168;&#x53CC;&#x5DE5;&#x8FD8;&#x662F;&#x4EE5;&#x534A;&#x53CC;&#x5DE5;&#x7684;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x8BBE;&#x7F6E;&#xFF0C;&#x5C3D;&#x7BA1;&#x53EF;&#x4EE5;&#x5728;&#x5C42;4&#x4E2D;&#x5904;&#x7406;&#x53CC;&#x5DE5;&#x65B9;&#x5F0F; &#xFF1B;&#x4F1A;&#x8BDD;&#x5C42;&#x7BA1;&#x7406;&#x767B;&#x5165;&#x548C;&#x6CE8;&#x9500;&#x8FC7;&#x7A0B;&#x3002; &#x4E0D;&#x7528;&#x534F;&#x8BAE;.</p>
+<h3 id="&#x7B2C;4&#x5C42;&#x4F20;&#x8F93;&#x5C42;&#xFF1A;&#x7AEF;&#x5230;&#x7AEF;&#x8FDE;&#x63A5;&#xFF09;">&#x7B2C;4&#x5C42;&#x4F20;&#x8F93;&#x5C42;&#xFF1A;(&#x7AEF;&#x5230;&#x7AEF;&#x8FDE;&#x63A5;&#xFF09;</h3>
+<p>&#x5E38;&#x89C4;&#x6570;&#x636E;&#x9012;&#x9001;;&#x9762;&#x5411;&#x8FDE;&#x63A5;&#x6216;&#x65E0;&#x8FDE;&#x63A5;&#x3002;&#x4E3A;&#x4F1A;&#x8BDD;&#x5C42;&#x7528;&#x6237;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x7AEF;&#x5230;&#x7AEF;&#x7684;&#x53EF;&#x9760;&#x3001;&#x900F;&#x660E;&#x548C;&#x4F18;&#x5316;&#x7684;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x670D;&#x52A1;&#x673A;&#x5236;&#x3002;</p>
+<p>&#x5305;&#x62EC;&#x5168;&#x53CC;&#x5DE5;&#x6216;&#x534A;&#x53CC;&#x5DE5;&#x3001;&#x6D41;&#x63A7;&#x5236;&#x548C;&#x9519;&#x8BEF;&#x6062;&#x590D;&#x670D;&#x52A1;&#xFF1B;&#x4F20;&#x8F93;&#x5C42;&#x628A;&#x6D88;&#x606F;&#x5206;&#x6210;&#x82E5;&#x5E72;&#x4E2A;&#x5206;&#x7EC4;&#xFF0C;&#x5E76;&#x5728;&#x63A5;&#x6536;&#x7AEF;&#x5BF9;&#x5B83;&#x4EEC;&#x8FDB;&#x884C;&#x91CD;&#x7EC4;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x7EC4;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0D;&#x540C;&#x7684;&#x8FDE;&#x63A5;&#x4F20;&#x9001;&#x5230;&#x4E3B;&#x673A;&#x3002;&#x8FD9;&#x6837;&#x65E2;&#x80FD;&#x83B7;&#x5F97;&#x8F83;&#x9AD8;&#x7684;&#x5E26;&#x5BBD;&#xFF0C;&#x53C8;&#x4E0D;&#x5F71;&#x54CD;&#x4F1A;&#x8BDD;&#x5C42;&#x3002;&#x5728;&#x5EFA;&#x7ACB;&#x8FDE;&#x63A5;&#x65F6;&#x4F20;&#x8F93;&#x5C42;&#x53EF;&#x4EE5;&#x8BF7;&#x6C42;&#x670D;&#x52A1;&#x8D28;&#x91CF;&#xFF0C;&#x8BE5;&#x670D;&#x52A1;&#x8D28;&#x91CF;&#x6307;&#x5B9A;&#x53EF;&#x63A5;&#x53D7;&#x7684;&#x8BEF;&#x7801;&#x7387;&#x3001;&#x5EF6;&#x8FDF;&#x91CF;&#x3001;&#x5B89;&#x5168;&#x6027;&#x7B49;&#x53C2;&#x6570;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x57FA;&#x4E8E;&#x7AEF;&#x5230;&#x7AEF;&#x7684;&#x6D41;&#x91CF;&#x63A7;&#x5236;&#x529F;&#x80FD;&#x3002;</p>
+<p>&#x534F;&#x8BAE;&#xFF1A;TCP &#x2022; UDP &#x2022; DCCP &#x2022; SCTP &#x2022; RTP &#x2022; RSVP &#x2022; PPTP...</p>
+<h3 id="&#x7B2C;3&#x5C42;&#x7F51;&#x7EDC;&#x5C42;&#xFF1A;&#xFF08;&#x5BFB;&#x5740;&#x548C;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#xFF09;">&#x7B2C;3&#x5C42;&#x7F51;&#x7EDC;&#x5C42;&#xFF1A;&#xFF08;&#x5BFB;&#x5740;&#x548C;&#x6700;&#x77ED;&#x8DEF;&#x5F84;&#xFF09;</h3>
+<p>&#x672C;&#x5C42;&#x901A;&#x8FC7;&#x5BFB;&#x5740;&#x6765;&#x5EFA;&#x7ACB;&#x4E24;&#x4E2A;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x7684;&#x8FDE;&#x63A5;&#xFF0C;&#x4E3A;&#x6E90;&#x7AEF;&#x7684;&#x8FD0;&#x8F93;&#x5C42;&#x9001;&#x6765;&#x7684;&#x5206;&#x7EC4;&#xFF0C;&#x9009;&#x62E9;&#x5408;&#x9002;&#x7684;&#x8DEF;&#x7531;&#x548C;&#x4EA4;&#x6362;&#x8282;&#x70B9;&#xFF0C;&#x6B63;&#x786E;&#x65E0;&#x8BEF;&#x5730;&#x6309;&#x7167;&#x5730;&#x5740;&#x4F20;&#x9001;&#x7ED9;&#x76EE;&#x7684;&#x7AEF;&#x7684;&#x8FD0;&#x8F93;&#x5C42;&#x3002;&#x5B83;&#x5305;&#x62EC;&#x901A;&#x8FC7;&#x4E92;&#x8FDE;&#x7F51;&#x7EDC;&#x6765;&#x8DEF;&#x7531;&#x548C;&#x4E2D;&#x7EE7;&#x6570;&#x636E; &#xFF1B;&#x9664;&#x4E86;&#x9009;&#x62E9;&#x8DEF;&#x7531;&#x4E4B;&#x5916;&#xFF0C;&#x7F51;&#x7EDC;&#x5C42;&#x8FD8;&#x8D1F;&#x8D23;&#x5EFA;&#x7ACB;&#x548C;&#x7EF4;&#x62A4;&#x8FDE;&#x63A5;&#xFF0C;&#x63A7;&#x5236;&#x7F51;&#x7EDC;&#x4E0A;&#x7684;&#x62E5;&#x585E;&#x4EE5;&#x53CA;&#x5728;&#x5FC5;&#x8981;&#x7684;&#x65F6;&#x5019;&#x751F;&#x6210;&#x8BA1;&#x8D39;&#x4FE1;&#x606F;&#x3002;
+&#x534F;&#x8BAE;&#xFF1A;IP (IPv4 &#x2022; IPv6) &#x2022; ARP &#x2022; RARP &#x2022; ICMP &#x2022; ICMPv6 &#x2022; IGMP &#x2022; RIP &#x2022; OSPF &#x2022; BGP &#x2022; IS-IS &#x2022; IPsec ...</p>
+<h3 id="&#x7B2C;2&#x5C42;&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x5C42;&#xFF1A;&#xFF08;&#x63A5;&#x5165;&#x4ECB;&#x8D28;&#xFF09;">&#x7B2C;2&#x5C42;&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x5C42;&#xFF1A;&#xFF08;&#x63A5;&#x5165;&#x4ECB;&#x8D28;&#xFF09;</h3>
+<p>&#x5728;&#x6B64;&#x5C42;&#x5C06;&#x6570;&#x636E;&#x5206;&#x5E27;&#xFF0C;&#x5E76;&#x5904;&#x7406;&#x6D41;&#x63A7;&#x5236;&#x3002;&#x5C4F;&#x853D;&#x7269;&#x7406;&#x5C42;&#xFF0C;&#x4E3A;&#x7F51;&#x7EDC;&#x5C42;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x7684;&#x8FDE;&#x63A5;&#xFF0C;&#x5728;&#x4E00;&#x6761;&#x6709;&#x53EF;&#x80FD;&#x51FA;&#x5DEE;&#x9519;&#x7684;&#x7269;&#x7406;&#x8FDE;&#x63A5;&#x4E0A;&#xFF0C;&#x8FDB;&#x884C;&#x51E0;&#x4E4E;&#x65E0;&#x5DEE;&#x9519;&#x7684;&#x6570;&#x636E;&#x4F20;&#x8F93;&#xFF08;&#x5DEE;&#x9519;&#x63A7;&#x5236;&#xFF09;&#x3002;&#x672C;&#x5C42;&#x6307;&#x5B9A;&#x62D3;&#x6251;&#x7ED3;&#x6784;&#x5E76;&#x63D0;&#x4F9B;&#x786C;&#x4EF6;&#x5BFB;&#x5740;&#x3002;&#x5E38;&#x7528;&#x8BBE;&#x5907;&#x6709;&#x7F51;&#x6865;&#x3001;&#x4EA4;&#x6362;&#x673A;&#xFF1B;</p>
+<p>&#x534F;&#x8BAE;&#xFF1A; 802.11 &#x2022; 802.16 &#x2022; Wi-Fi &#x2022; WiMAX &#x2022; ATM &#x2022; DTM &#x2022; &#x4EE4;&#x724C;&#x73AF; &#x2022; &#x4EE5;&#x592A;&#x7F51; &#x2022; FDDI &#x2022; &#x5E27;&#x4E2D;&#x7EE7; &#x2022; GPRS &#x2022; EVDO &#x2022; HSPA &#x2022; HDLC &#x2022; PPP &#x2022; L2TP &#x2022; ISDN</p>
+<h3 id="&#x7B2C;1&#x5C42;&#x7269;&#x7406;&#x5C42;&#xFF1A;&#x4E8C;&#x8FDB;&#x5236;&#x4F20;&#x8F93;&#xFF09;">&#x7B2C;1&#x5C42;&#x7269;&#x7406;&#x5C42;&#xFF1A;(&#x4E8C;&#x8FDB;&#x5236;&#x4F20;&#x8F93;&#xFF09;</h3>
+<p>&#x5904;&#x4E8E;OSI&#x53C2;&#x8003;&#x6A21;&#x578B;&#x7684;&#x6700;&#x5E95;&#x5C42;&#x3002;&#x7269;&#x7406;&#x5C42;&#x7684;&#x4E3B;&#x8981;&#x529F;&#x80FD;&#x662F;&#x5229;&#x7528;&#x7269;&#x7406;&#x4F20;&#x8F93;&#x4ECB;&#x8D28;&#x4E3A;&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x5C42;&#x63D0;&#x4F9B;&#x7269;&#x7406;&#x8FDE;&#x63A5;&#xFF0C;&#x4EE5;&#x4FBF;&#x900F;&#x660E;&#x7684;&#x4F20;&#x9001;&#x6BD4;&#x7279;&#x6D41;&#x3002;&#x5E38;&#x7528;&#x8BBE;&#x5907;&#x6709;&#xFF08;&#x5404;&#x79CD;&#x7269;&#x7406;&#x8BBE;&#x5907;&#xFF09;&#x7F51;&#x5361;&#x3001;&#x96C6;&#x7EBF;&#x5668;&#x3001;&#x4E2D;&#x7EE7;&#x5668;&#x3001;&#x8C03;&#x5236;&#x89E3;&#x8C03;&#x5668;&#x3001;&#x7F51;&#x7EBF;&#x3001;&#x53CC;&#x7EDE;&#x7EBF;&#x3001;&#x540C;&#x8F74;&#x7535;&#x7F06;&#x3002;</p>
+<p>&#x534F;&#x8BAE;&#xFF1A; RS-443 &#x3001;RS-232C&#x3001;RS-485 </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="cache.html" class="navigation navigation-prev " aria-label="Previous page: 4.5 缓存机制">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="tcp.html" class="navigation navigation-next " aria-label="Next page: 4.7 TCP协议">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.6 网络分层","level":"1.5.6","depth":2,"next":{"title":"4.7 TCP协议","level":"1.5.7","depth":2,"path":"network/tcp.md","ref":"network/tcp.md","articles":[]},"previous":{"title":"4.5 缓存机制","level":"1.5.5","depth":2,"path":"network/cache.md","ref":"network/cache.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"network/net-level.md","mtime":"2017-07-18T12:21:11.271Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-05T04:20:15.076Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

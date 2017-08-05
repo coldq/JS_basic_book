@@ -1,0 +1,962 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title> 3.8 响应式设计-布局 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="RWD-gird.html" />
+    
+    
+    <link rel="prev" href="RWD-font.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. Js基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../basic/prototype.html">
+            
+                <a href="../basic/prototype.html">
+            
+                    
+                    1.1 prototype和proto的关系是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../basic/this.html">
+            
+                <a href="../basic/this.html">
+            
+                    
+                    1.2 this关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../basic/scope-chain.html">
+            
+                <a href="../basic/scope-chain.html">
+            
+                    
+                    1.3 作用域链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../basic/scope-up.html">
+            
+                <a href="../basic/scope-up.html">
+            
+                    
+                    1.4 变量提升
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../basic/es6.html">
+            
+                <a href="../basic/es6.html">
+            
+                    
+                    1.5 ES6相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../basic/call.html">
+            
+                <a href="../basic/call.html">
+            
+                    
+                    1.6 Call
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../basic/apply.html">
+            
+                <a href="../basic/apply.html">
+            
+                    
+                    1.7 apply
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../basic/bind.html">
+            
+                <a href="../basic/bind.html">
+            
+                    
+                    1.8 bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../basic/js-OOP.html">
+            
+                <a href="../basic/js-OOP.html">
+            
+                    
+                    1.9 js面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../basic/js-else.html">
+            
+                <a href="../basic/js-else.html">
+            
+                    
+                    1.10 js其他小技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../basic/promise.html">
+            
+                <a href="../basic/promise.html">
+            
+                    
+                    1.11 Promise原理&实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../basic/nextTick-setTimeout.html">
+            
+                <a href="../basic/nextTick-setTimeout.html">
+            
+                    
+                    1.12 setTimeout、setImmediate、process.nextTick
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../basic/regexp.html">
+            
+                <a href="../basic/regexp.html">
+            
+                    
+                    1.13 正则相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. CSS 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../css/display-float.html">
+            
+                <a href="../css/display-float.html">
+            
+                    
+                    2.1 display:inline-block 和 float 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../css/link&import.html">
+            
+                <a href="../css/link&import.html">
+            
+                    
+                    2.2 css引入 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../css/code-guide.html">
+            
+                <a href="../css/code-guide.html">
+            
+                    
+                    2.2 代码规范 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. Html相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="dom-nodetype.html">
+            
+                <a href="dom-nodetype.html">
+            
+                    
+                     3.1 Dom 节点类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="BOM.html">
+            
+                <a href="BOM.html">
+            
+                    
+                     3.2 BOM 是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="event-bubble.html">
+            
+                <a href="event-bubble.html">
+            
+                    
+                     3.3 事件和冒泡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Doctype.html">
+            
+                <a href="Doctype.html">
+            
+                    
+                     3.4 Doctype
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="web-optimization.html">
+            
+                <a href="web-optimization.html">
+            
+                    
+                     3.5 前端优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="RWD-concept.html">
+            
+                <a href="RWD-concept.html">
+            
+                    
+                     3.6 响应式设计-概念&应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="RWD-font.html">
+            
+                <a href="RWD-font.html">
+            
+                    
+                     3.7 响应式设计-字体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.8" data-path="RWD-layout.html">
+            
+                <a href="RWD-layout.html">
+            
+                    
+                     3.8 响应式设计-布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="RWD-gird.html">
+            
+                <a href="RWD-gird.html">
+            
+                    
+                     3.9 响应式设计-自定义网格布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="RWD-cross-browser.html">
+            
+                <a href="RWD-cross-browser.html">
+            
+                    
+                     3.10 响应式设计：跨浏览器兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="pageview.html">
+            
+                <a href="pageview.html">
+            
+                    
+                     3.11 页面呈现、重绘、回流
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    4. 网络相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../network/jsonp.html">
+            
+                <a href="../network/jsonp.html">
+            
+                    
+                    4.1 JSONP的实现，和JSON的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../network/ajax.html">
+            
+                <a href="../network/ajax.html">
+            
+                    
+                    4.2 AJAX的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../network/cross-origin.html">
+            
+                <a href="../network/cross-origin.html">
+            
+                    
+                    4.3 跨域问题及其解决
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../network/http-code.html">
+            
+                <a href="../network/http-code.html">
+            
+                    
+                    4.4 http状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../network/cache.html">
+            
+                <a href="../network/cache.html">
+            
+                    
+                    4.5 缓存机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../network/net-level.html">
+            
+                <a href="../network/net-level.html">
+            
+                    
+                    4.6 网络分层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../network/tcp.html">
+            
+                <a href="../network/tcp.html">
+            
+                    
+                    4.7 TCP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../network/http.html">
+            
+                <a href="../network/http.html">
+            
+                    
+                    4.8 HTTP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    5. Js框架相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../frame/React-diff.html">
+            
+                <a href="../frame/React-diff.html">
+            
+                    
+                    5.1 React的diff算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../frame/React-diff.html">
+            
+                <a href="../frame/React-diff.html">
+            
+                    
+                    5.2 React的props和state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../frame/react-vue.html">
+            
+                <a href="../frame/react-vue.html">
+            
+                    
+                    5.3 React对比Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../frame/react-angular.html">
+            
+                <a href="../frame/react-angular.html">
+            
+                    
+                    5.4 React对比angularJs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../frame/react-purecomponent.html">
+            
+                <a href="../frame/react-purecomponent.html">
+            
+                    
+                    5.5 React的pureComponent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../frame/React-render.html">
+            
+                <a href="../frame/React-render.html">
+            
+                    
+                    5.6 React渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../frame/mvc-mvvm.html">
+            
+                <a href="../frame/mvc-mvvm.html">
+            
+                    
+                    5.7 MVC和MVVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    6. Else
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../else/nowCoder.html">
+            
+                <a href="../else/nowCoder.html">
+            
+                    
+                    6.1 牛客网Node.js输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../else/firstScreen.html">
+            
+                <a href="../else/firstScreen.html">
+            
+                    
+                    6.2 首屏，白屏时间如何计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../else/jestUsage.html">
+            
+                <a href="../else/jestUsage.html">
+            
+                    
+                    6.3 Jest基本用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../else/else.html">
+            
+                <a href="../else/else.html">
+            
+                    
+                    6.4 零碎知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." > 3.8 响应式设计-布局</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x57FA;&#x672C;&#x5E03;&#x5C40;&#x7684;&#x51E0;&#x79CD;&#x65B9;&#x5F0F;">&#x57FA;&#x672C;&#x5E03;&#x5C40;&#x7684;&#x51E0;&#x79CD;&#x65B9;&#x5F0F;</h2>
+<h3 id="&#x6D41;&#x4F53;&#x5E03;&#x5C40;&#xFF1A;">&#x6D41;&#x4F53;&#x5E03;&#x5C40;&#xFF1A;</h3>
+<p>&#x6D41;&#x5E03;&#x5C40;&#x4E0E;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x5E03;&#x5C40;&#x57FA;&#x672C;&#x4E0D;&#x540C;&#x70B9;&#x5C31;&#x5728;&#x4E8E;&#x5BF9;&#x7F51;&#x7AD9;&#x5C3A;&#x5BF8;&#x7684;&#x6D4B;&#x91CF;&#x5355;&#x4F4D;&#x4E0D;&#x540C;&#x3002;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x5E03;&#x5C40;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x50CF;&#x7D20;&#xFF0C;&#x4F46;&#x662F;&#x6D41;&#x5E03;&#x5C40;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x767E;&#x5206;&#x6BD4;&#xFF0C;&#x770B;&#x5230;&#x767E;&#x5206;&#x6BD4;&#xFF0C;&#x4F60;&#x5E94;&#x8BE5;&#x60F3;&#x5230;&#xFF0C;&#x8FD9;&#x5C06;&#x63D0;&#x4F9B;&#x4E86;&#x5F88;&#x5F3A;&#x7684;&#x53EF;&#x5851;&#x6027;&#x548C;&#x6D41;&#x52A8;&#x6027;&#x3002;&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x901A;&#x8FC7;&#x8BBE;&#x7F6E;&#x4E86;&#x767E;&#x5206;&#x6BD4;&#xFF0C;&#x4F60;&#x5C06;&#x4E0D;&#x9700;&#x8981;&#x8003;&#x8651;&#x8BBE;&#x5907;&#x5C3A;&#x5BF8;&#x6216;&#x8005;&#x5C4F;&#x5E55;&#x5BBD;&#x5EA6;&#x5927;&#x5C0F;&#x4E86;&#xFF0C;&#x7ED3;&#x8BBA;&#x5C31;&#x662F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4E3A;&#x6BCF;&#x79CD;&#x60C5;&#x5F62;&#x627E;&#x5230;&#x4E00;&#x79CD;&#x53EF;&#x884C;&#x7684;&#x65B9;&#x6848;&#xFF0C;&#x56E0;&#x4E3A;&#x4F60;&#x7684;&#x8BBE;&#x8BA1;&#x5C3A;&#x5BF8;&#x5C06;&#x9002;&#x5E94;&#x6240;&#x6709;&#x7684;&#x8BBE;&#x5907;&#x5C3A;&#x5BF8;&#x3002;&#x6D41;&#x5E03;&#x5C40;&#x4E0E;&#x5A92;&#x4F53;&#x67E5;&#x8BE2;&#x548C;&#x4F18;&#x5316;&#x6837;&#x5F0F;&#x6280;&#x672F;&#x7684;&#x5173;&#x7CFB;&#x5BC6;&#x5207;&#x3002;
+<img src="../image/3-6-1.jpg" alt=""></p>
+<h3 id="&#x56FA;&#x5B9A;&#x5E03;&#x5C40;">&#x56FA;&#x5B9A;&#x5E03;&#x5C40;</h3>
+<p>&#x5728;&#x56FA;&#x5B9A;&#x5E03;&#x5C40;&#x4E2D;&#xFF0C;&#x7F51;&#x9875;&#x7684;&#x5BBD;&#x5EA6;&#x662F;&#x5FC5;&#x987B;&#x6307;&#x5B9A;&#x4E3A;&#x4E00;&#x4E2A;&#x50CF;&#x7D20;&#x503C;&#xFF0C;&#x4E00;&#x822C;&#x8BBE;&#x4E3A;960&#x50CF;&#x7D20;&#x3002;&#x5728;&#x8FC7;&#x53BB;&#xFF0C;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x53D1;&#x73B0;960&#x50CF;&#x7D20;&#x662F;&#x6700;&#x9002;&#x5408;&#x4F5C;&#x4E3A;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x7684;&#x5BBD;&#x5EA6;&#xFF0C;&#x56E0;&#x4E3A;960&#x53EF;&#x4EE5;&#x6574;&#x9664;3&#xFF0C;4&#xFF0C;5&#xFF0C;6&#xFF0C;8&#xFF0C;10&#xFF0C;12&#x548C;15&#x3002;&#x5C3D;&#x7BA1;&#x5230;&#x4E86;&#x4ECA;&#x5929;&#xFF0C;&#x5728;web&#x5F00;&#x53D1;&#x4E2D;&#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x666E;&#x904D;&#x4F7F;&#x7528;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x5E03;&#x5C40;&#x7684;&#xFF0C;&#x539F;&#x56E0;&#x662F;&#x8FD9;&#x79CD;&#x5E03;&#x5C40;&#x63D0;&#x4F9B;&#x5F88;&#x5F3A;&#x7684;&#x7A33;&#x5B9A;&#x6027;&#x4E0E;&#x53EF;&#x63A7;&#x6027;&#x3002;&#x5982;&#x679C;&#x4F60;&#x77E5;&#x9053;&#x4F60;&#x7684;&#x7F51;&#x9875;&#x5BBD;&#x5EA6;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x517C;&#x5BB9;&#x6240;&#x6709;&#x6D4F;&#x89C8;&#x5668;&#x4E0E;&#x8BBE;&#x5907;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x7CBE;&#x786E;&#x5730;&#x63A7;&#x5236;&#x56FE;&#x50CF;&#x4F4D;&#x7F6E;&#xFF0C;&#x5C31;&#x597D;&#x50CF;&#x4E00;&#x5207;&#x5C3D;&#x5728;&#x638C;&#x63A7;&#x4E4B;&#x4E2D;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x5E03;&#x5C40;&#x56FA;&#x7136;&#x6709;&#x4E9B;&#x52A3;&#x52BF;&#xFF0C;&#xFF0C;&#x60F3;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x5E03;&#x5C40;&#x7F51;&#x7AD9;&#x7684;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x5FC5;&#x987B;&#x610F;&#x8BC6;&#x5230;&#x7F51;&#x7AD9;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x5728;&#x5404;&#x5F0F;&#x5404;&#x6837;&#x7684;&#x5C4F;&#x5E55;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x548C;&#x8BBE;&#x5907;&#x4E2D;&#x53EF;&#x7528;&#x4E0E;&#x53EF;&#x89C1;&#x5730;&#x663E;&#x793A;&#x51FA;&#x6765;&#x3002;&#x73B0;&#x5728;&#x5E02;&#x573A;&#x4E0A;&#x51FA;&#x73B0;&#x5982;&#x6B64;&#x4F17;&#x591A;&#x8BBE;&#x5907;&#xFF0C;&#x610F;&#x5473;&#x7740;&#x6709;&#x5404;&#x5F0F;&#x5404;&#x6837;&#x7684;&#x5C4F;&#x5E55;&#x5C3A;&#x5BF8;&#xFF0C;&#x5BF9;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x63D0;&#x51FA;&#x4E86;&#x201C;&#x4E00;&#x79CD;&#x5C3A;&#x5BF8;&#x9002;&#x5E94;&#x6240;&#x6709;&#x201D;&#x7684;&#x6280;&#x672F;&#x6311;&#x6218;&#xFF0C;&#x8FD9;&#x79CD;&#x6311;&#x6218;&#x5DF2;&#x8D85;&#x8D8A;&#x4E86;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x8BBE;&#x8BA1;&#x7684;&#x7CBE;&#x786E;&#x5EA6;&#x548C;&#x53EF;&#x63A7;&#x5236;&#x6027;&#x3002;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#x7684;&#x7F51;&#x7AD9;&#x51FA;&#x9519;&#x7684;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x4F8B;&#x5B50;&#x5C31;&#x662F;&#x5C0F;&#x4E8E;960&#x50CF;&#x7D20;&#x7684;&#x5C4F;&#x5E55;&#x5C3A;&#x5BF8;&#x662F;&#x975E;&#x5E38;&#x5E38;&#x89C1;&#x7684;&#x3002;&#x8FD9;&#x6837;&#x7F51;&#x7AD9;&#x5C31;&#x4E0D;&#x80FD;&#x591F;&#x5168;&#x5C4F;&#x663E;&#x793A;&#x4E86;&#xFF0C;&#x4F60;&#x5C06;&#x770B;&#x5230;&#x4E00;&#x6761;&#x6C34;&#x5E73;&#x7684;&#x5BFC;&#x822A;&#x6761;&#x3002;&#x4E8B;&#x5B9E;&#x4E0A;,&#x8FD9;&#x4E9B;&#x5C0F;&#x5C4F;&#x5E55;&#x901A;&#x5E38;&#x7528;&#x624B;&#x6307;&#x64CD;&#x4F5C;,&#x800C;&#x4E0D;&#x662F;&#x9F20;&#x6807;&#x6765;&#x63A7;&#x5236;&#x3002;
+<img src="../image/3-6-2.jpg" alt=""></p>
+<h3 id="&#x5F39;&#x6027;&#x5E03;&#x5C40;&#xFF1A;">&#x5F39;&#x6027;&#x5E03;&#x5C40;&#xFF1A;</h3>
+<p>&#x5F39;&#x6027;&#x5E03;&#x5C40;&#x8DDF;&#x6D41;&#x5E03;&#x5C40;&#x5F88;&#x76F8;&#x50CF;&#xFF0C;&#x4E3B;&#x8981;&#x4E0D;&#x540C;&#x662F;&#x5927;&#x5C0F;&#x5355;&#x4F4D;&#x3002;&#x5F39;&#x6027;&#x5E03;&#x5C40;&#x7684;&#x5927;&#x5C0F;&#x5355;&#x4F4D;&#x4E0D;&#x662F;&#x50CF;&#x7D20;&#x6216;&#x8005;&#x767E;&#x5206;&#x6BD4;&#xFF0C;&#x800C;&#x662F;em&#x3002;&#x4E00;&#x4E2A;em&#x5355;&#x4F4D;&#x7B49;&#x4E8E;&#x5B9A;&#x4E49;&#x5728;CSS&#x89C4;&#x5219;&#xFF1A;font-size&#x7684;&#x503C;&#x5927;&#x5C0F;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x6211;&#x4EEC;&#x8BBE;&#x7F6E;&#x6587;&#x672C;&#x7684;font-size&#x5927;&#x5C0F;&#x4E3A;20&#x50CF;&#x7D20;&#xFF0C;&#x90A3;&#x4E48;1em&#x5C31;&#x7B49;&#x4E8E;20px&#xFF0C;2em&#x5C31;&#x7B49;&#x4E8E;40px&#xFF0C;&#x4EE5;&#x6B64;&#x7C7B;&#x63A8;&#x3002;&#x8FD9;&#x79CD;&#x5E03;&#x5C40;&#x4E3A;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x79CD;&#x5F88;&#x5F3A;&#x7684;&#x6392;&#x7248;&#x63A7;&#x5236;&#x3002;&#x7531;&#x4E8E;&#x7EDD;&#x5927;&#x591A;&#x6570;&#x7684;&#x5E03;&#x5C40;&#x4E3B;&#x8981;&#x7531;&#x6587;&#x672C;&#x6765;&#x586B;&#x5145;&#xFF0C;&#x6B64;&#x65B9;&#x6848;&#x4F7F;&#x5F39;&#x6027;&#x5E03;&#x5C40;&#x6210;&#x4E3A;&#x8BB8;&#x591A;&#x9879;&#x76EE;&#x7684;&#x5F3A;&#x6709;&#x529B;&#x7684;&#x7ADE;&#x4E89;&#x8005;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x8FD8;&#x662F;&#x5B58;&#x5728;&#x7F3A;&#x70B9;&#x5C31;&#x662F;&#x5728;&#x67D0;&#x4E9B;&#x4F8B;&#x5B50;&#x4E2D;&#x4F9D;&#x7136;&#x51FA;&#x73B0;&#x4EE4;&#x4EBA;&#x4E0D;&#x6109;&#x5FEB;&#x7684;&#x6C34;&#x5E73;&#x6EDA;&#x52A8;&#x6761;&#x3002;</p>
+<h3 id="&#x6DF7;&#x5408;&#x5E03;&#x5C40;">&#x6DF7;&#x5408;&#x5E03;&#x5C40;</h3>
+<p>&#x6700;&#x540E;&#x4ECB;&#x7ECD;&#x8FD9;&#x4E2A;&#x6DF7;&#x5408;&#x5E03;&#x5C40;&#xFF0C;&#x662F;&#x4E0A;&#x9762;&#x4ECB;&#x7ECD;&#x7684;&#x4E24;&#x79CD;&#x6216;&#x8005;&#x66F4;&#x591A;&#x5E03;&#x5C40;&#x7C7B;&#x578B;&#x7684;&#x7EC4;&#x5408;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x8BBE;&#x7F6E;&#x67D0;&#x4E9B;&#x6307;&#x5B9A;&#x5143;&#x7D20;&#xFF08;&#x4FA7;&#x680F;&#x6216;&#x8005;&#x5E95;&#x90E8;&#xFF09;&#x4E00;&#x4E2A;&#x56FA;&#x5B9A;&#x5BBD;&#x5EA6;&#xFF0C;&#x5269;&#x4E0B;&#x7684;&#x5C31;&#x9009;&#x62E9;&#x767E;&#x5206;&#x6BD4;&#x6216;&#x8005;em&#x3002;&#x660E;&#x663E;&#x5730;&#xFF0C;&#x8FD9;&#x79CD;&#x9014;&#x5F84;&#x8FD8;&#x662F;&#x6709;&#x52A3;&#x52BF;&#x2014;&#x2014;&#x5982;&#x679C;&#x4F60;&#x662F;&#x6307;&#x4FA7;&#x680F;&#x7684;&#x5BBD;&#x5EA6;&#x4E3A;200&#x50CF;&#x7D20;&#xFF0C;&#x7136;&#x540E;&#x4E3A;&#x5269;&#x4E0B;&#x7684;&#x5185;&#x5BB9;&#x8BBE;&#x7F6E;&#x4E3A;80%&#x7684;&#x5BBD;&#x5EA6;&#xFF0C;&#x5F53;&#x5C4F;&#x5E55;&#x5C0F;&#x4E8E;1000&#x50CF;&#x7D20;&#x65F6;&#xFF0C;&#x4F60;&#x5C06;&#x4F1A;&#x770B;&#x5230;&#x4E00;&#x6761;&#x6C34;&#x5E73;&#x6EDA;&#x52A8;&#x6761;&#xFF0C;&#x56E0;&#x4E3A;&#x4E3B;&#x8981;&#x7684;&#x5217;&#x5DF2;&#x7ECF;&#x6CA1;&#x6709;&#x8DB3;&#x591F;&#x7A7A;&#x95F4;&#x5BB9;&#x7EB3;&#x4E86;&#x3002;&#x73B0;&#x5B9E;&#x4E2D;&#x5F88;&#x5C11;&#x60C5;&#x51B5;,&#x5728;&#x4F60;&#x7684;&#x9879;&#x76EE;&#x53EA;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x3002;&#x4F46;&#x662F;&#x4F60;&#x53EF;&#x4EE5;&#x5F88;&#x5BB9;&#x6613;&#x5730;&#x89E3;&#x51B3;&#x8FD9;&#x4E9B;&#x95EE;&#x9898;,&#x540E;&#x9762;&#x6211;&#x4EEC;&#x5C06;&#x4F1A;&#x5B66;&#x4E60;&#x5230;&#x3002;</p>
+<p>&#x603B;&#x7ED3;&#xFF1A;</p>
+<p>&#x4F60;&#x53EF;&#x80FD;&#x60F3;&#x77E5;&#x9053;&#x4EC0;&#x4E48;&#x662F;&#x6700;&#x597D;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF1F;&#x4E0A;&#x9762;&#x5217;&#x51FA;&#x7684;&#x56DB;&#x79CD;&#x7C7B;&#x578B;&#x5E03;&#x5C40;&#x54EA;&#x79CD;&#x624D;&#x662F;&#x6700;&#x9002;&#x5408;&#x4F5C;&#x4E3A;&#x54CD;&#x5E94;&#x5F0F;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;&#x4F60;&#x6216;&#x8BB8;&#x5DF2;&#x7ECF;&#x731C;&#x5230;,&#x6BCF;&#x4E2A;&#x5E03;&#x5C40;&#x7C7B;&#x578B;&#x90FD;&#x6709;&#x5176;&#x4F18;&#x70B9;&#x548C;&#x7F3A;&#x70B9;&#x3002;&#x8FD9;&#x4E00;&#x5207;&#x90FD;&#x53D6;&#x51B3;&#x4E8E;&#x4F60;&#x7684;&#x9700;&#x6C42;&#x548C;&#x9879;&#x76EE;&#x7684;&#x7279;&#x70B9;&#x3002;</p>
+<p>&#x8FD9;&#x6216;&#x8005;&#x5F88;&#x5BB9;&#x6613;&#x81F4;&#x4F7F;&#x4F60;&#x8BA4;&#x4E3A;&#xFF0C;&#x8FD9;&#x4E9B;&#x5E03;&#x5C40;&#x4E4B;&#x4E00;&#x90FD;&#x662F;&#x666E;&#x904D;&#x6BD4;&#x5176;&#x4ED6;&#x7684;&#x4F18;&#x79C0;&#x7684;&#xFF0C;&#x4F46;&#x4E0D;&#x80FD;&#x8BA4;&#x4E3A;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x662F;&#x4E92;&#x65A5;&#x5173;&#x7CFB;&#x6216;&#x662F;&#x7ADE;&#x4E89;&#x5BF9;&#x624B;&#x3002;&#x76F8;&#x53CD;&#x5730;,&#x5E94;&#x8BE5;&#x8003;&#x8651;&#x6280;&#x672F;,&#x53EF;&#x4EE5;&#x7ED3;&#x5408;&#x4F7F;&#x7528;&#x3002;&#x8BB8;&#x591A;&#x8FD9;&#x4E9B;&#x6280;&#x672F;&#x4E0D;&#x53EF;&#x80FD;&#x72EC;&#x7ACB;&#x4E8E;&#x5176;&#x4ED6;&#x6280;&#x672F;&#x800C;&#x5B58;&#x5728;&#x7684;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5B9A;&#x4E49;&#x56FA;&#x5B9A;&#x5B57;&#x4F53;&#x5927;&#x5C0F;&#xFF0C;em&#x5C31;&#x662F;&#x6CA1;&#x6709;&#x610F;&#x4E49;&#x7684;&#x3002;&#x540C;&#x6837;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x7CBE;&#x786E;&#x5BBD;&#x5EA6;&#x6765;&#x9002;&#x5E94;&#x6D41;&#x884C;&#x7684;&#x5C4F;&#x5E55;&#x5C3A;&#x5BF8;&#xFF0C;&#x5A92;&#x4F53;&#x67E5;&#x8BE2;&#x4E5F;&#x5C06;&#x662F;&#x65E0;&#x610F;&#x4E49;&#x7684;&#x3002;</p>
+<p>&#x8457;&#x4F5C;&#x6743;&#x5F52;&#x4F5C;&#x8005;&#x6240;&#x6709;&#x3002;
+&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x8054;&#x7CFB;&#x4F5C;&#x8005;&#x83B7;&#x5F97;&#x6388;&#x6743;,&#x975E;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;
+&#x539F;&#x6587;: <a href="http://www.w3cplus.com/responsive/responsive-web-design-fluid-layouts.html" target="_blank">http://www.w3cplus.com/responsive/responsive-web-design-fluid-layouts.html</a> </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="RWD-font.html" class="navigation navigation-prev " aria-label="Previous page:  3.7 响应式设计-字体">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="RWD-gird.html" class="navigation navigation-next " aria-label="Next page:  3.9 响应式设计-自定义网格布局">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":" 3.8 响应式设计-布局","level":"1.4.8","depth":2,"next":{"title":" 3.9 响应式设计-自定义网格布局","level":"1.4.9","depth":2,"path":"html/RWD-gird.md","ref":"html/RWD-gird.md","articles":[]},"previous":{"title":" 3.7 响应式设计-字体","level":"1.4.7","depth":2,"path":"html/RWD-font.md","ref":"html/RWD-font.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/RWD-layout.md","mtime":"2017-07-17T03:23:59.203Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-05T04:20:15.076Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
